@@ -1,43 +1,45 @@
-# Companies configuration for job scraping
-# Format: company_name: {ats_type, board_url}
-
 companies:
-  - name: "OpenAI"
-    ats: "greenhouse"
-    board_token: "openai"
-    
-  - name: "Anthropic"
-    ats: "ashby"
-    board_url: "https://jobs.ashbyhq.com/anthropic"
-    
-  - name: "Stripe"
-    ats: "greenhouse"
-    board_token: "stripe"
-    
-  - name: "Airbnb"
-    ats: "greenhouse"
-    board_token: "airbnb"
-    
-  - name: "Notion"
-    ats: "lever"
-    board_url: "https://api.lever.co/v0/postings/notion"
-    
-  - name: "Figma"
-    ats: "greenhouse"
-    board_token: "figma"
-    
-  - name: "Scale AI"
-    ats: "ashby"
-    board_url: "https://jobs.ashbyhq.com/scale"
-    
-  - name: "Discord"
-    ats: "greenhouse"
-    board_token: "discord"
-    
-  - name: "Databricks"
-    ats: "greenhouse"
-    board_token: "databricks"
-    
-  - name: "Ramp"
-    ats: "ashby"
-    board_url: "https://jobs.ashbyhq.com/ramp"
+  # Infrastructure, SRE & DevOps
+  - { name: "Datadog", ats: "greenhouse", board_token: "datadog" }
+  - { name: "Cloudflare", ats: "greenhouse", board_token: "cloudflare" }
+  - { name: "HashiCorp", ats: "greenhouse", board_token: "hashicorp" }
+  - { name: "Okta", ats: "greenhouse", board_token: "okta" }
+  - { name: "CrowdStrike", ats: "greenhouse", board_token: "crowdstrike" }
+  - { name: "SentinelOne", ats: "greenhouse", board_token: "sentinelone" }
+  - { name: "Zscaler", ats: "greenhouse", board_token: "zscaler" }
+  - { name: "Palo Alto Networks", ats: "greenhouse", board_token: "paloaltonetworks" }
+  - { name: "MongoDB", ats: "greenhouse", board_token: "mongodb" }
+  - { name: "Confluent", ats: "greenhouse", board_token: "confluent" }
+  - { name: "Snowflake", ats: "greenhouse", board_token: "snowflake" }
+  - { name: "Elastic", ats: "greenhouse", board_token: "elastic" }
+  - { name: "Splunk", ats: "greenhouse", board_token: "splunk" }
+  - { name: "PagerDuty", ats: "greenhouse", board_token: "pagerduty" }
+  - { name: "Snyk", ats: "greenhouse", board_token: "snyk" }
+  - { name: "Docker", ats: "greenhouse", board_token: "docker" }
+  - { name: "CircleCI", ats: "greenhouse", board_token: "circleci" }
+  - { name: "Postman", ats: "greenhouse", board_token: "postman" }
+  - { name: "Auth0", ats: "greenhouse", board_token: "auth0" }
+  - { name: "Netskope", ats: "greenhouse", board_token: "netskope" }
+  # High-Growth Tech & Fintech
+  - { name: "Affirm", ats: "greenhouse", board_token: "affirm" }
+  - { name: "Chime", ats: "greenhouse", board_token: "chime" }
+  - { name: "Marqeta", ats: "greenhouse", board_token: "marqeta" }
+  - { name: "Gusto", ats: "greenhouse", board_token: "gusto" }
+  - { name: "Bill.com", ats: "greenhouse", board_token: "bill" }
+  - { name: "DoorDash", ats: "greenhouse", board_token: "doordash" }
+  - { name: "HubSpot", ats: "greenhouse", board_token: "hubspot" }
+  - { name: "Zendesk", ats: "greenhouse", board_token: "zendesk" }
+  - { name: "Twilio", ats: "greenhouse", board_token: "twilio" }
+  - { name: "DocuSign", ats: "greenhouse", board_token: "docusign" }
+  - { name: "Instacart", ats: "greenhouse", board_token: "instacart" }
+  - { name: "Wayfair", ats: "greenhouse", board_token: "wayfair" }
+  - { name: "Airbnb", ats: "greenhouse", board_token: "airbnb" }
+  - { name: "Lyft", ats: "greenhouse", board_token: "lyft" }
+  - { name: "Pinterest", ats: "greenhouse", board_token: "pinterest" }
+  - { name: "Snap", ats: "greenhouse", board_token: "snapchat" }
+  - { name: "Roblox", ats: "greenhouse", board_token: "roblox" }
+  - { name: "Unity", ats: "greenhouse", board_token: "unity" }
+  - { name: "Discord", ats: "greenhouse", board_token: "discord" }
+  - { name: "Databricks", ats: "greenhouse", board_token: "databricks" }
+  - { name: "OpenAI", ats: "greenhouse", board_token: "openai" }
+  - { name: "Figma", ats: "greenhouse", board_token: "figma" }
